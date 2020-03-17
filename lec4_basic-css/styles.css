@@ -1,0 +1,51 @@
+body{
+    /* color: #FF0000; */
+    color: #414141;/*dark gray*/
+    background-color: #eeeeee; /* Light gray*/
+    font-size: 18px;
+}
+
+/* h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 28px;
+} */
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Helvetica","Arial", sans-serif;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: left;
+}
+
+/* em{
+    font-weight: bold;
+    font-style: normal;
+}
+strong{
+    font-weight: normal;
+    font-style: italic;
+} */
