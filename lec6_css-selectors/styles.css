@@ -1,9 +1,26 @@
-.synopsis{
+/* .synopsis{
+    color: #7E8184;
+    font-style: italic;
+} */
+
+.synopsis em{
+    font-style: normal;
+}
+
+.page > p:first-of-type{
     color: #7E8184;
     font-style: italic;
 }
 
-.button {
+h1 em{
+
+}
+.button:link,
+.button:visited {
+    display:block;
+    text-decoration: none;
+
+
     color: #FFF;
     background-color: #5995da;
     font-weight: bold;
@@ -16,12 +33,88 @@
     margin: 20px auto;
 }
 
-.call-to-action{
+.button:hover,
+.button:visited:hover{
+    color:#FFF;
+    background-color: #76AEED;
+}
+
+.button:active,
+.button:visited:active{
+    color: #FFF;
+    background-color: #5995da;
+}
+
+#button-2{
+    background-color: #D55C5F;
+}
+
+.call-to-action:link,
+.call-to-action:visited{
     font-style: italic;
     background-color: #EEB75A;
 }
+.call-to-action:hover,
+.call-to-action:visited:hover{
+    background-color: #F5CF8E;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active{
+    background-color: #EEB75A;
+}
+
+/* .call-to-action:link,
+.call-to-action:visited{
+    background-color: #D55C5F;
+} */
+
+
+
 
 .page{
     width: 600px;
     margin: 0 auto; 
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+}
+a:visited:hover{
+    color: orange;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+a:active{
+    color: red;
+}
+
+a:visited:active{
+    color:red;
+}
+
+p:last-of-type{
+    margin-bottom: 50px;
+}
+
+#button-2{
+    color: #5D6063;
+}
+
+/* (This is painful to maintain) */
+#button-2,
+#button-3,
+#checkout-button,
+#menu-bar-call-to-action{
+    color: #5D6063;
+}
+
+.dummy{
+    height: 1000px;
 }
